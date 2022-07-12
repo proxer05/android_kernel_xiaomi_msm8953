@@ -15,13 +15,6 @@
 /* msm8953 */
 / {
 	firmware: firmware {
-		android {
-			/delete-node/ vbmeta;
-			fstab {
-				vendor {
-					fsmgr_flags = "wait,slotselect";
-				};
-                        };
-                };
+		/delete-node/ android;
 	};
 };
